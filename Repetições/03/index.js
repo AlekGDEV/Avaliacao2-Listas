@@ -12,7 +12,6 @@ for (let n = 0; n < qtd_numeros; n++){
     else{
         qtd_negativos++;
     }
-
 };
 
 document.write('Media :', soma/qtd_numeros);

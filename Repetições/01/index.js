@@ -7,6 +7,5 @@ for(let numeros = 1; numeros <= 500; numeros++){
 
         }
     }
-}
-
+};
 document.write('Resultado: ', soma);
