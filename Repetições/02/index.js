@@ -18,10 +18,10 @@ let altura_atual = altura[i];
   if(altura_atual > altura_lida){ 
     altura_lida = altura_atual;
   } 
-  if (altura_atual > maior_altura){  
+  else if (altura_atual > maior_altura){  
     maior_altura = altura_atual;
   } 
-  if(altura_lida < menor_altura){ 
+  else if(altura_lida < menor_altura){ 
     menor_altura = altura_lida;
   } 
   else if(altura_atual < menor_altura) 
